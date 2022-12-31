@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Lateef', serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background: #64748b;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.card {
+  width: 400px;
+  height: 80vh;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border: #14b8a6;
+  border-radius: 10px;
+  background: #0f172a;
+}
+
+.card:hover {
+  box-shadow: 0 8px 100px 0 rgba(0,0,0,0.2);
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.profile > img {
+  width: 150px;
+  height: 150px;
+  border:3px solid white;
+  border-radius: 100%;
+}
+
+.profile >  h2 {
+  font-size: 1.8em;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #fff;
+  text-align: center;
+}
+
+.profile > h3 {
+  padding-top: 0;
+  font-size: 1em;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: #fff;
+  text-align: center;
+}
+
+.profile > p {
+  padding-top: 10px;
+  font-size: 1.2em;
+  font: italic;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #fff;
+  text-align: center;
+}
+
+.linkTree {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.linkTree >  a {
+  display: flex;
+  text-decoration: none;
+  color: #14b8a6;
+  font-size: 24px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  margin: 5px 10px;
+  padding: 5px;
+}
+
+.linkTree-content {
+  color: #fff;
+  fill: #fff;
+}
+
+.linkTree > a {
+  display: flex;
+  gap: 20px;
+  text-decoration: none;
+  color: #fff;
+  fill: #fff;
+}
+
+.linkTree > a :hover {
+  color: #14b8a6;
+  fill: #14b8a6;
+}
+
+.footer {
+  text-align: center;
+}
+
+
+.footer > p {
+  color: #fff;
+  font-size: 0.8em;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
